@@ -3,9 +3,7 @@ pyttsx3
 speechrecognition
 python-dotenv
 pyaudio
-### Mac OS X (os.platform == 'Darwin')
-pyobjc>=2.4
-#pyobjc
+pyobjc
 gTTS
 pyautogui
 pydub
