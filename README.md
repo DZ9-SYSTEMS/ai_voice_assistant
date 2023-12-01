@@ -18,10 +18,11 @@ Created by Isaiah Love, this AI Voice Assistant is an innovative project that in
 
 ### Installation
 
-1. **Clone the repository**
+- **Clone the repository**
    ```bash
         git clone https://github.com/DZ9-SYSTEMS/ai_voice_assistant.git
 
 ###  Running the Application
-  ***Execute the main script:***
+- ***Execute the main script:***
+  ```bash
         python3 chatGPTVA.py
