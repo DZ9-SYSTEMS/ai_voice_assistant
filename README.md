@@ -1,4 +1,5 @@
-# AI Voice Assistant
+# Create An AI Voice Assistant Using Python
+[![ai-voice-assist2](https://github.com/DZ9-SYSTEMS/ai_voice_assistant/assets/77218260/7721122f-bc16-44b2-8587-8b1534688c58)](https://medium.com/@isaiahlove085/create-an-ai-voice-assistant-a95a9a2e79a9)
 
 ## Project Overview
 Created by Isaiah Love, this AI Voice Assistant is an innovative project that integrates advanced speech recognition and response capabilities using Python. Leveraging the power of OpenAI's GPT-3, Google's Text-to-Speech (gTTS), and speech recognition libraries, this assistant can understand spoken commands and respond in a human-like manner. The project aims to simplify daily tasks through voice commands, making technology more accessible and interactive.
