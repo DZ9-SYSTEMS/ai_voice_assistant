@@ -1,9 +1,6 @@
 # Imports the speech recognition library for voice commands
 import speech_recognition as sr
 
-# Imports the Python text-to-speech conversion library
-import pyttsx3
-
 # Imports the library for GUI automation
 import pyautogui
 
@@ -55,9 +52,11 @@ def listen_for_command():
 
         # Returns the recognized command in lowercase
         return command.lower()
+    #except' catches specific exceptions that the 'try' block may encounter.
     except sr.UnknownValueError:
         print("Google Speech Recognition could not understand audio")
         return None
+    #except' catches specific exceptions that the 'try' block may encounter.
     except sr.RequestError as e:
         print(f"Could not request results from Google Speech Recognition service; {e}")
         return None
@@ -79,7 +78,7 @@ def text_to_speech(response_text):
     # Plays the wav file using the system's default audio player
     os.system("afplay response.wav")
 
-# Get Response from GPT-3
+# Get Response From GPT-3
 def chatGPT_response(prompt):
     # Sends the prompt to GPT-3 and returns the response
     response = openai.chat.completions.create(

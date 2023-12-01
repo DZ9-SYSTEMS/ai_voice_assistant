@@ -1,9 +1,7 @@
 openai
-pyttsx3
 speechrecognition
 python-dotenv
 pyaudio
-pyobjc
 gTTS
 pyautogui
 pydub
